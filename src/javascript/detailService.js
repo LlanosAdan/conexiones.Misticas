@@ -6,7 +6,7 @@ function mostrarDetalle() {
 
   if (servicio) {
     // Fondo de pantalla completo
-    contenedor.style.backgroundImage = `url('${servicio.image}')`;
+    contenedor.style.backgroundImage = `url('../${servicio.image}')`;
     contenedor.style.backgroundSize = "cover";
     contenedor.style.backgroundPosition = "center";
     contenedor.style.backgroundRepeat = "no-repeat";
@@ -14,7 +14,7 @@ function mostrarDetalle() {
     // Contenido tipo vidrio/glass
     contenedor.innerHTML = `
       <div class="w-[90%] h-[90%] flex flex-col lg:flex-row bg-[#20533a] bg-opacity-20 backdrop-blur-lg rounded-xl p-2 lg:p-8 text-white flex flex-col gap-4 shadow-lg">
-        <img src="${servicio.image}" alt="${servicio.name}" class="lg:max-w-2xl rounded-lg shadow-md"/>
+        <img src="../${servicio.image}" alt="${servicio.name}" class="lg:max-w-2xl rounded-lg shadow-md"/>
         <div class="lg:px-20 flex flex-col lg:gap-y-8 text-[#FFFFFF]">
           <h2 class="text-2xl lg:text-4xl font-bold">${servicio.name}</h2>
           <p class="text-xl lg:text-2xl font-semibold">${servicio.detalle}</p>

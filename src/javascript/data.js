@@ -3,7 +3,7 @@ const servicios = [
     id: 1,
     name: "Registros akástricos",
     detalle: "Accede a tu información kármica",
-    image: "../../dist/assets/image/akashico-1.jpg",
+    image: "../dist/assets/image/akashico-1.jpg",
     descripcion:
       "Los registros akástricos contienen la información de tu alma y vida pasada. A través de esta lectura podrás comprender patrones repetitivos y desbloquear aprendizajes.",
     comoSeRealiza:
@@ -13,7 +13,7 @@ const servicios = [
     id: 2,
     name: "Tarot",
     detalle: "Guía para tu camino",
-    image: "../../dist/assets/image/tarot.jpg",
+    image: "../dist/assets/image/tarot.jpg",
     descripcion:
       "El tarot es una herramienta de autoconocimiento y orientación que te ayuda a tomar decisiones y entender situaciones presentes y futuras.",
     comoSeRealiza:
@@ -23,7 +23,7 @@ const servicios = [
     id: 3,
     name: "Reiki",
     detalle: "Aprende a sanar",
-    image: "../../dist/assets/image/reiki.jpg",
+    image: "../dist/assets/image/reiki.jpg",
     descripcion:
       "El Reiki es una técnica de sanación energética que promueve el equilibrio físico, emocional y espiritual.",
     comoSeRealiza:
@@ -33,7 +33,7 @@ const servicios = [
     id: 4,
     name: "Carta natal",
     detalle: "Sobre ti",
-    image: "../../dist/assets/image/carta-natal.jpg",
+    image: "../dist/assets/image/carta-natal.jpg",
     descripcion:
       "La carta natal es un mapa de los planetas en el momento de tu nacimiento que revela tu personalidad, talentos y retos de vida.",
     comoSeRealiza:
@@ -43,7 +43,7 @@ const servicios = [
     id: 5,
     name: "Carta númerológica",
     detalle: "Sobre ti",
-    image: "../../dist/assets/image/carta-numerologica.jpg",
+    image: "../dist/assets/image/carta-numerologica.jpg",
     descripcion:
       "La carta numerológica revela la vibración de tu nombre y fecha de nacimiento, mostrando tu camino de vida y desafíos.",
     comoSeRealiza:
@@ -53,7 +53,7 @@ const servicios = [
     id: 6,
     name: "Reflexología Holística",
     detalle: "Reflexionemos",
-    image: "../../dist/assets/image/reflexologia-holistica.jpg",
+    image: "../dist/assets/image/reflexologia-holistica.jpg",
     descripcion:
       "La reflexología holística estimula puntos específicos de los pies y manos para equilibrar todo el cuerpo y mente.",
     comoSeRealiza:
@@ -63,7 +63,7 @@ const servicios = [
     id: 7,
     name: "Limpiezas energéticas",
     detalle: "Limpiemos tu interior",
-    image: "../../dist/assets/image/limpieza-energetica.jpg",
+    image: "../dist/assets/image/limpieza-energetica.jpg",
     descripcion:
       "Las limpiezas energéticas eliminan bloqueos y energías negativas para restaurar armonía y bienestar.",
     comoSeRealiza:
@@ -73,7 +73,7 @@ const servicios = [
     id: 8,
     name: "Mediumnidad",
     detalle: "Medium",
-    image: "../../dist/assets/image/mediumnidad.jpg",
+    image: "../dist/assets/image/mediumnidad.jpg",
     descripcion:
       "La mediumnidad permite comunicarte con el plano espiritual, recibiendo mensajes de guías o seres queridos.",
     comoSeRealiza:
