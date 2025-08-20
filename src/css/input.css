@@ -35,12 +35,16 @@
   font-family: "OpenSans", sans-serif;
 }
 
+.btn-primary {
+  @apply bg-[#bf930d] hover:bg-[#d9ad26] w-[150px] h-[30px] m-auto text-center font-semibold rounded pt-1 cursor-pointer;
+}
+
 .text-glow {
   text-shadow: 0 0 8px #d9ad26, 0 0 15px #d9ad26;
 }
 
 .imagen-sombra {
   filter: drop-shadow(0 0 15px #d9ad26)
-          drop-shadow(0 0 30px rgba(0, 255, 255, 0.6))
-          drop-shadow(0 0 45px rgba(0, 255, 255, 0.4));
+    drop-shadow(0 0 30px rgba(0, 255, 255, 0.6))
+    drop-shadow(0 0 45px rgba(0, 255, 255, 0.4));
 }
