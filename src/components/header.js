@@ -22,8 +22,7 @@ const Links = navBar
 // Renderizar header
 headerContainer.innerHTML = `
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-          
-          <!-- Logo -->
+         
           <div class="lg:flex">
             <a href="#" class="text-xl lg:text-2xl font-bold text-white">Conexión Mística</a>
           </div>
@@ -66,7 +65,7 @@ headerContainer.innerHTML = `
 
                 <!-- Header mobile -->
                 <div class="flex items-center justify-between">
-                  <a href="#" class="text-xl text-white font-bold">Conexión Mística</a>
+                  <a href="./" class="text-xl text-white font-bold">Conexión Mística</a>
                   <button type="button" command="close" commandfor="mobile-menu"
                     class="-m-2.5 rounded-md p-2.5 text-gray-400">
                     <span class="sr-only">Cerrar menú</span>
@@ -85,10 +84,10 @@ headerContainer.innerHTML = `
 
                 <!-- Redes mobile -->
                 <div class="mt-6 space-y-4 border-t border-gray-700 pt-6">
-                  <a href="#" class="px-3 py-2 text-base font-semibold text-white lg:text-2xl hover:text-indigo-400">
+                  <a href="https://api.whatsapp.com/send?phone=542914400333&text=Hola%20%2C%20contame%20mas%20sobre%20tus%20servicios!%20gracias" target="_blank" class="px-3 py-2 text-base font-semibold text-white lg:text-2xl hover:text-indigo-400">
               ${WhatsAppIcon({ width: 50, height: 50 })}
             </a>
-            <a href="#" class="px-3 py-2 text-base font-semibold text-white  lg:text-2xl hover:text-indigo-400">
+            <a href="https://www.instagram.com/conexionmisticaok/" target="_blank" class="px-3 py-2 text-base font-semibold text-white  lg:text-2xl hover:text-indigo-400">
               ${InstagramIcon({ width: 50, height: 50 })}
             </a>
                 </div>

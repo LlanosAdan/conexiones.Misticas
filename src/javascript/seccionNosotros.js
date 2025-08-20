@@ -29,7 +29,7 @@ seccionNosotros.innerHTML = `
             >
           </div>
           <div class="lg:w-1/2">
-            <img src="../../public/assets/image/seccion-nosotros.jpg" alt="" />
+            <img src="./public/assets/image/seccion-nosotros.jpg" alt="" />
           </div>
         </article>
 `;
