@@ -24,7 +24,7 @@ seccionNosotros.innerHTML = `
             </p>
             <a
               class="bg-[#bf930d] hover:bg-[#d9ad26] w-[150px] h-[30px] text-black m-auto font-principal text-center font-semibold rounded pt-1 cursor-pointer"
-              href="../src/pages/nosotros.html"
+              href="./src/pages/nosotros.html"
               >Ver más</a
             >
           </div>
