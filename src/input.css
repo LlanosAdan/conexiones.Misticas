@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MoreSugar";
+  src: url("./css/fonts/MoreSugar-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./css/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PlaylistScript";
+  src: url("./css/fonts/Playlist-Script.otf") format("opentype");
+}

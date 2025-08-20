@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MoreSugar";
+  src: url("./fonts/MoreSugar-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PlaylistScript";
+  src: url("./fonts/Playlist-Script.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #8d7955 */
+
+.font-general {
+  font-family: "MoreSugar", sans-serif;
+}
+.font-titulo {
+  font-family: "PlaylistScript", cursive;
+}
+.font-principal {
+  font-family: "OpenSans", sans-serif;
+}
+
+.text-glow {
+  text-shadow: 0 0 8px #d9ad26, 0 0 15px #d9ad26;
+}
+
+.imagen-sombra {
+  filter: drop-shadow(0 0 15px #d9ad26)
+          drop-shadow(0 0 30px rgba(0, 255, 255, 0.6))
+          drop-shadow(0 0 45px rgba(0, 255, 255, 0.4));
+}
