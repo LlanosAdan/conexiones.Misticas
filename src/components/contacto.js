@@ -58,5 +58,4 @@ seccionContacto.innerHTML = `
   </div>
 </div>
 <img class="lg:w-1/2 rounded-xl" src="./dist/assets/image/contactanos-form.jpg" />
-<img class="lg:w-1/2 rounded-xl" src="./dist/assets/image/seccion-nosotros.jpg" alt="" />
 `;
