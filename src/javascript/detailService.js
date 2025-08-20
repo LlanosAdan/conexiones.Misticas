@@ -20,7 +20,7 @@ function mostrarDetalle() {
           <p class="text-xl lg:text-2xl font-semibold">${servicio.detalle}</p>
           <p class="text-base lg:text-xl">${servicio.descripcion}</p>
           <p class="text-base lg:text-xl"><strong class="text-xl lg:text-2xl">Cómo se realiza:</strong> ${servicio.comoSeRealiza}</p>
-          <a href="../index.html" class="lg:w-60 lg:h-12 text-xl m-auto text-center mt-4 self-start bg-[#20533a] hover:bg-[#6fa38a] px-4 py-1 lg:py-2 rounded-lg text-white">Volver</a>
+          <a href="../../index.html" class="lg:w-60 lg:h-12 text-xl m-auto text-center mt-4 self-start bg-[#20533a] hover:bg-[#6fa38a] px-4 py-1 lg:py-2 rounded-lg text-white">Volver</a>
         </div>
       </div>
     `;
