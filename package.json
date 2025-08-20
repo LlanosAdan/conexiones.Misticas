@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
-    "build:css": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify",
-    "build:copy": "cpx \"./src/**/*.{html,js,json,png,jpg,svg,gif,ico,otf,ttf,woff,woff2}\" dist",
-    "build": "npm-run-all build:copy build:css"
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
