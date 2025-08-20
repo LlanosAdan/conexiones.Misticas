@@ -19,7 +19,7 @@ function renderCards() {
     div.innerHTML = `
       <img class="w-full h-[250px] rounded-xl" src=${s.image} />
       <h2 class="text-lg font-bold text-center">${s.name}</h2>
-      <a class="bg-[#bf930d] hover:bg-[#d9ad26] w-[150px] h-[30px] m-auto text-center font-semibold rounded pt-1 cursor-pointer" href="./src/pages/details.html?id=${s.id}">Ver más</a>
+      <a class="bg-[#bf930d] hover:bg-[#d9ad26] w-[150px] h-[30px] m-auto text-center font-semibold rounded pt-1 cursor-pointer" href="./pages/details.html?id=${s.id}">Ver más</a>
     `;
 
     //appendChild inserta el div creado y con contenido dentro del contenedor #cards del HTM
