@@ -18,7 +18,7 @@ function renderCards() {
     //innerHTML inserta contenido HTML dentro del div creado.
     div.innerHTML = `
       <img class="w-full h-[250px] rounded-xl" src=./dist/${s.image} />
-      <h2 class="text-lg font-general font-bold text-center">${s.name}</h2>
+      <h2 class="text-lg font-titulo font-bold text-[#FFFFFF] text-center">${s.name}</h2>
       <a class="bg-[#bf930d] hover:bg-[#d9ad26] w-[150px] h-[30px] m-auto font-principal text-center font-semibold rounded pt-1 cursor-pointer" href="./src/pages/details.html?id=${s.id}">Ver más</a>
     `;
 
